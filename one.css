@@ -1,0 +1,25 @@
+.first {
+color:red;
+border: 1px solid transparent;
+height: 200px;
+width: 400px;
+padding: 30px;
+border-image-source:url(download.jpg) ;
+border-image-width: 20px;
+border-image-repeat: round;
+border-image-slice: 30;
+}
+
+.second {
+    color: green;
+    border: 1px solid green;
+    height: 200px;
+    width: 400px;
+    padding: 30px;
+    box-sizing: border-box;
+    border-image-source:url(download.jpg) ;
+border-image-width: 20px;
+border-image-repeat: round;
+border-image-slice: 30;
+
+}
