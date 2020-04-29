@@ -1,0 +1,39 @@
+#main{
+    padding-top: 350px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 1500px;
+    font-size: 70px    ;
+    color: cornflowerblue;
+    background-image: url(../lgn.jfif);
+
+}
+#logwindow{
+ font-size: 80px;
+ font-style: oblique;
+ 
+ 
+}
+input{
+    height: 50px;
+    width: 550px;
+    font-size: 30px;
+    background-color: black;
+    color: blanchedalmond;
+    
+    
+}
+a{
+    width: 550px;
+    height: 50px;
+    font-size: 170px;
+}
+img{
+    border-radius: 100px;
+    
+
+}
+#chkbx{
+    font-size: 50px;
+    color: blanchedalmond;
+}
