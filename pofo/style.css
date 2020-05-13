@@ -26,7 +26,7 @@ input{
 a{
     width: 550px;
     height: 50px;
-    font-size: 170px;
+    
 }
 img{
     border-radius: 100px;
@@ -36,4 +36,11 @@ img{
 #chkbx{
     font-size: 50px;
     color: blanchedalmond;
+}
+span{
+    border-radius: 50px;
+}
+h1{
+    font-size: 25px;
+    color: red;
 }
