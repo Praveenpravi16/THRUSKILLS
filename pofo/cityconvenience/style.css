@@ -7,11 +7,13 @@ body {
 .topnav {
   overflow: hidden;
   background-color: rgb(0, 0, 0);
+  position:fixed;
 }
 
 #location{
   padding: 50px;
-  text-align: center;
+  text-align: right;
+
 }
 #loc{
   border-style: none;
@@ -23,10 +25,18 @@ body {
 }
 
 h1{
-float: right;
+text-align: right;
 padding-top: 50px;
 padding-right: 100px;
+padding-left: 1000px;
 color: yellowgreen;
+}
+h2{
+
+  text-align: center;
+  color: yellowgreen;
+  font-size: 50px;
+
 }
 
 
@@ -191,6 +201,7 @@ color: yellowgreen;
 .categories{
   padding-top: 200px;
   padding-left: 100px;
+  display: none;
   
 }
 .categories img{
@@ -240,6 +251,7 @@ color: yellowgreen;
 .text {
   color: rgb(0, 0, 0);
   font-size: 50px;
+  font-weight: bold;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -248,3 +260,42 @@ color: yellowgreen;
   transform: translate(-50%, -50%);
   text-align: center;
 } 
+
+
+/* styles for enroll */
+
+.enroll{
+  width: 50%;
+  margin-left: 600px;
+  display: none;
+text-align: center;
+    padding-left: 10px;
+    padding-top: 25px;
+    height: 1000px;
+    color: red;
+    border: none;
+   background-color: rgb(29, 28, 28);
+    font-size: 30px;
+
+}
+.submit{
+  width: 300px;
+  height: 50px;
+  background-color: green;
+  
+  font-size:35px ;
+  border: none;
+  cursor: pointer;
+  
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+#enroll input{
+    width: 700px;
+  height: 100px;
+  font-size: 35px;
+  padding: 30px;
+  top: 50px;
+  
+}
